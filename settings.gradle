@@ -1,0 +1,1 @@
+include ':app', ':np-core', ':library'
