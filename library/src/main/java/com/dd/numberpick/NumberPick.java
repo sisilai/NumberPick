@@ -94,6 +94,22 @@ public class NumberPick extends LinearLayout {
         return Integer.parseInt(mNumberTv.getText().toString());
     }
 
+    public void setMax(int max) {
+        mMaxNumber = max;
+    }
+
+    public int getMax() {
+        return mMaxNumber;
+    }
+
+    public void setMin(int min) {
+        mMinNumber = min;
+    }
+
+    public int getMin() {
+        return mMinNumber;
+    }
+
     public interface OnNumberPickListener {
 
         void onSub(int number);

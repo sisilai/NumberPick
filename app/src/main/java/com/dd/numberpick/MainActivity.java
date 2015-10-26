@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         mNp = (NumberPick) findViewById(R.id.np);
 
+        mNp.setNumber(10);
+
         mNp.setOnNumberPickListener(new NumberPick.OnNumberPickListener() {
             @Override
             public void onSub(int number) {
